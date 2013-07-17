@@ -90,7 +90,7 @@ $(document).ready(function () {
 			fullWidth = $container.outerWidth(true);
 
 		$container.hide();
-		$trigger.first().addClass('active').next().show();
+		//$trigger.first().addClass('active').next().show();
 
 		$trigger.css('width', fullWidth - 2);
 		$container.css('width', fullWidth - 2);
