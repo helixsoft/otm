@@ -668,11 +668,37 @@
    
 <!--start contact-->
      <div id="contact" class="page section">
-     
+        
+        <div class="container">   
+            <div id="contact_form">
+                <div class="twelve columns offset-by-two formWrap">
+                    <h2>Request a booking</h2>
+                    <form action="#" method="post" class="contactForm">
+                        <div class="formSecWrap">
+                            <input type="text" class="formField" title="Name" id="form_name" name="form_name" value="" />
+                            <input type="text" class="formField" title="Email" name="form_email" id="form_email" value="" />
+                            <input type="text" class="formField" title="Phone" name="form_phone" id="form_phone" value="" />
+                            <input type="text" class="formField" title="Date &amp; Time" name="form_date" id="form_date" value="" />
+                        </div>
+                        <div class="formSecWrap formSecWrap2">
+                            <textarea class="textarea formField" title="Message" name="form_message" id="form_message"></textarea>
+                        </div>
+                            <input class="button" id="submit-form" type="submit" name="submit" value="Send Message" />
+                        <div id="success"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+         
+           
+        <div class="embed-container">      
+            	<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Hotel+Daspalla,+Road+No+37,+Jubilee+Hills,+CBI+Colony,+Hyderabad,+Andhra+Pradesh&amp;sll=17.437845,78.39597&amp;sspn=17.437845,78.39597&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Hotel+Daspalla,+Road+No+37,+Jubilee+Hills,+CBI+Colony,+Hyderabad,+Andhra+Pradesh&amp;z=14&amp;ll=17.437845,78.39597&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.au/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Hotel+Daspalla,+Road+No+37,+Jubilee+Hills,+CBI+Colony,+Hyderabad,+Andhra+Pradesh&amp;sll=17.437845,78.39597&amp;sspn=17.437845,78.39597&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Hotel+Daspalla,+Road+No+37,+Jubilee+Hills,+CBI+Colony,+Hyderabad,+Andhra+Pradesh&amp;z=14&amp;ll=17.437845,78.39597" style="color:#d2b55b;text-align:left">View Larger Map</a></small>
+        </div>
+        
         <div class="container">
         
-        	<div class="sixteen columns">
-            	<h1>Contact <span>Us</span></h1>
+            <div class="sixteen columns">
+                <h1>Contact <span>Us</span></h1>
             </div> 
                
             <div class="four columns marginTop contactDetails offset-by-two">
@@ -690,8 +716,8 @@
                     </p>
             </div>
             <div class="sixteen columns marginTop">
-            	<h2>Get the latest news & offers</h2>
-            	<form action="#" method="post" class="newsForm">
+                <h2>Get the latest news & offers</h2>
+                <form action="#" method="post" class="newsForm">
                     <div>
                     <input type="text" class="formField" title="Name" name="cm-name" id="name" />
                     <input type="text" class="formField" title="Email" name="cm-email" id="email" />
@@ -700,32 +726,8 @@
                     </div>
                 </form>            
             </div>       
-        </div> 
-           
-        <div class="embed-container">      
-            	<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Hotel+Daspalla,+Road+No+37,+Jubilee+Hills,+CBI+Colony,+Hyderabad,+Andhra+Pradesh&amp;sll=17.437845,78.39597&amp;sspn=17.437845,78.39597&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Hotel+Daspalla,+Road+No+37,+Jubilee+Hills,+CBI+Colony,+Hyderabad,+Andhra+Pradesh&amp;z=14&amp;ll=17.437845,78.39597&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.au/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Hotel+Daspalla,+Road+No+37,+Jubilee+Hills,+CBI+Colony,+Hyderabad,+Andhra+Pradesh&amp;sll=17.437845,78.39597&amp;sspn=17.437845,78.39597&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Hotel+Daspalla,+Road+No+37,+Jubilee+Hills,+CBI+Colony,+Hyderabad,+Andhra+Pradesh&amp;z=14&amp;ll=17.437845,78.39597" style="color:#d2b55b;text-align:left">View Larger Map</a></small>
-         </div>
-            
-         <div class="container">   
-            <div id="contact_form">
-                <div class="twelve columns offset-by-two formWrap">
-                	<h2>Request a booking</h2>
-                    <form action="#" method="post" class="contactForm">
-                        <div class="formSecWrap">
-                            <input type="text" class="formField" title="Name" id="form_name" name="form_name" value="" />
-                            <input type="text" class="formField" title="Email" name="form_email" id="form_email" value="" />
-                            <input type="text" class="formField" title="Phone" name="form_phone" id="form_phone" value="" />
-                            <input type="text" class="formField" title="Date &amp; Time" name="form_date" id="form_date" value="" />
-                        </div>
-                        <div class="formSecWrap formSecWrap2">
-                            <textarea class="textarea formField" title="Message" name="form_message" id="form_message"></textarea>
-                        </div>
-                        	<input class="button" id="submit-form" type="submit" name="submit" value="Send Message" />
-                        <div id="success"></div>
-                    </form>
-                </div>
-            </div>
-   	   </div>
+        </div>    
+        
 
      </div>
 <!--end contact--> 
