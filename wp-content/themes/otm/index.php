@@ -106,7 +106,7 @@
                 <h3>Vodka</h3>
                 <ul>
                 	<li><span>Dirty Mojito - Lorem ipsum dolor sit.</span></li>
-                    <li><span>Dirty Mojito - Lorem sit amet.</span></li>
+                    <li><span>Dirty Mojito - Lorem sit amet.</span></li>L
                 </ul>
                 <h3>Wines</h3>
                 <ul>
