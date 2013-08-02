@@ -91,41 +91,18 @@
 			</div>
 				
 			<div class="eight columns awardsListing">
-				<h2>A Tale Of Ale</h2>
+				<h2><?php the_field('menu-title',23)?></h2>
                 <!--Plugin Start-->
-				<h3>Whikey</h3>
-                <ul>
-                	<li><span>Dirty Mojito - Lorem ipsum .</span></li>
-                    <li><span>Dirty Mojito - Lorem ipsum dolot.</span></li>
-                    <li><span>Dirty Mojito - Lorem ipsum dolor .</span></li>
-                </ul>
-                <h3>Taquila</h3>
-                <ul>
-                	<li><span>Dirty Mojito - Lorem ipsum .</span></li>
-                </ul>
-                <h3>Vodka</h3>
-                <ul>
-                	<li><span>Dirty Mojito - Lorem ipsum dolor sit.</span></li>
-                    <li><span>Dirty Mojito - Lorem sit amet.</span></li>
-                </ul>
-                <h3>Wines</h3>
-                <ul>
-                	<li><span>Dirty Mojito - Lorem sit amet.</span></li>
-                </ul>
-                
-                <h3>Coctails</h3>
-                <ul>
-                	<li><span>Dirty Mojito - Lorem  dolor sit amet.</span></li>
-                </ul>
+				<?php otm_menu();?>
                 <!--Plugin End-->                                                 
 			</div>
 		
-        	<div class="sixteen columns ">
+        	<div class="ten columns " style="margin:0 auto;">
                 <h2 class="sectionTitle"><?php the_field('take_a_tour_text',23)?></h2>
                 <p><?php the_field('take_a_tour_small_text',23)?></p>
-                <div class="video-container">
+                <!--<div class="video-container">
                     <iframe width="800" height="500" src="http://www.youtube.com/embed/Mdw4jcMeiD4" frameborder="0" allowfullscreen></iframe>
-                </div>
+                </div>-->
             </div>            
 		</div>
 	</div>
@@ -242,67 +219,6 @@
                     	<div class="accImage">
                         	<div class="accImageInner">
                         		<img src="<?php echo THEMEROOT?>/images/promo-1.jpg" alt="" class="scale-with-grid" />
-                            </div>
-                        </div>
-                        <div class="accTitle">
-                            <h3>Try our tropical Thursdays for tempting and refresing drinks this summer.</h3>
-                        </div>
-                        <div class="accText">
-                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. </p>
-                            <p>Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                    
-                <!-- Accordion #2 -->
-                <span class="accTrigger question"><a href="#">Firday Night Live</a></span>
-                <div class="accContainer">
-                    <div class="accContent">
-                    	<div class="accImage">
-                        	<div class="accImageInner">
-                        		<img src="<?php echo THEMEROOT?>/images/promo-2.jpg" alt="" class="scale-with-grid" />
-                            </div>
-                        </div>
-                        <div class="accTitle">
-                            <h3>Try our tropical Thursdays for tempting and refresing drinks this summer.</h3>
-                        </div>
-                        <div class="accText">
-                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. </p>
-                            <p>Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                    
-                <!-- Accordion #3 -->
-                <span class="accTrigger question"><a href="#">Saturday Night Fever</a></span>
-                <div class="accContainer">
-                    <div class="accContent">
-                    	<div class="accImage">
-                        	<div class="accImageInner">
-                        		<img src="<?php echo THEMEROOT?>/images/promo-3.jpg" alt="" class="scale-with-grid" />
-                            </div>
-                        </div>
-                        <div class="accTitle">
-                            <h2>20% OFF</h2>
-                            <h3>Try our tropical Thursdays for tempting and refresing drinks this summer.</h3>
-                        </div>
-                        <div class="accText">
-                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. </p>
-                            <p>Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Accordion #4 -->
-                <span class="accTrigger question"><a href="#">Young Tuesday</a></span>
-                <div class="accContainer">
-                    <div class="accContent">
-                    	<div class="accImage">
-                        	<div class="accImageInner">
-                        		<img src="<?php echo THEMEROOT?>/images/promo-4.jpg" alt="" class="scale-with-grid" />
                             </div>
                         </div>
                         <div class="accTitle">
