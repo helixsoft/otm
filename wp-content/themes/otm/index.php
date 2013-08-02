@@ -212,25 +212,7 @@
    			<div class="sixteen columns">
         	<p class="introtext"><?php the_field('upcoming_event_text',23) ?></p>
                 <!--Plugin start-->
-                <!-- Accordion #1 -->
-                <span class="accTrigger question"><a href="#">Tropical Thursdays</a></span>
-                <div class="accContainer">
-                    <div class="accContent">
-                    	<div class="accImage">
-                        	<div class="accImageInner">
-                        		<img src="<?php echo THEMEROOT?>/images/promo-1.jpg" alt="" class="scale-with-grid" />
-                            </div>
-                        </div>
-                        <div class="accTitle">
-                            <h3>Try our tropical Thursdays for tempting and refresing drinks this summer.</h3>
-                        </div>
-                        <div class="accText">
-                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. </p>
-                            <p>Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <?php otme_event();?>
                 <!--Plugin End-->
 			</div>
             
@@ -273,95 +255,11 @@
 			</div>
             <div class="da-thumbs">
             
-			<article class="one-fifth column">
-                <a class="thumbLink" href="<?php echo THEMEROOT?>/images/gallery-11.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum.">
-					<section class="thumbImage">
-                        <div><span class="iconWrapper iconLink"></span></div>
-                    	<img src="<?php echo THEMEROOT?>/images/gallery-11-thumb.jpg" alt="" class="scale-with-grid" />
-                    </section>
-                </a>
-			</article>
+			<!--Plugin start-->
+                <?php otm_gallery();?>
+                <!--Plugin End-->
             
-			<article class="one-fifth column">
-                <a class="thumbLink" href="images/gallery-12.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum.">
-					<section class="thumbImage">
-                        <div><span class="iconWrapper iconLink"></span></div>
-                    	<img src="<?php echo THEMEROOT?>/images/gallery-12-thumb.jpg" alt="" class="scale-with-grid" />
-                    </section>
-                </a>
-			</article>
-            
-			<article class="one-fifth column">
-                <a class="thumbLink" href="<?php echo THEMEROOT?>/images/gallery-13.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum.">
-					<section class="thumbImage">
-                        <div><span class="iconWrapper iconLink"></span></div>
-                    	<img src="<?php echo THEMEROOT?>/images/gallery-13-thumb.jpg" alt="" class="scale-with-grid" />
-                    </section>
-                </a>
-			</article>
-            
-			<article class="one-fifth column">
-                <a class="thumbLink" href="<?php echo THEMEROOT?>/images/gallery-14.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum.">
-					<section class="thumbImage">
-                        <div><span class="iconWrapper iconLink"></span></div>
-                    	<img src="<?php echo THEMEROOT?>/images/gallery-14-thumb.jpg" alt="" class="scale-with-grid" />
-                    </section>
-                </a>
-			</article>
-            
-			<article class="one-fifth column">
-                <a class="thumbLink" href="<?php echo THEMEROOT?>/images/gallery-15.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum.">
-					<section class="thumbImage">
-                        <div><span class="iconWrapper iconLink"></span></div>
-                    	<img src="<?php echo THEMEROOT?>/images/gallery-15-thumb.jpg" alt="" class="scale-with-grid" />
-                    </section>
-                </a>
-			</article>
-            
-			<article class="one-fifth column">
-                <a class="thumbLink" href="<?php echo THEMEROOT?>/images/gallery-16.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum.">
-					<section class="thumbImage">
-                        <div><span class="iconWrapper iconLink"></span></div>
-                    	<img src="<?php echo THEMEROOT?>/images/gallery-16-thumb.jpg" alt="" class="scale-with-grid" />
-                    </section>
-                </a>
-			</article>
-            
-			<article class="one-fifth column">
-                <a class="thumbLink" href="<?php echo THEMEROOT?>/images/gallery-17.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum.">
-					<section class="thumbImage">
-                        <div><span class="iconWrapper iconLink"></span></div>
-                    	<img src="<?php echo THEMEROOT?>/images/gallery-17-thumb.jpg" alt="" class="scale-with-grid" />
-                    </section>
-                </a>
-			</article>
-            
-			<article class="one-fifth column">
-                <a class="thumbLink" href="<?php echo THEMEROOT?>/images/gallery-18.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum.">
-					<section class="thumbImage">
-                        <div><span class="iconWrapper iconLink"></span></div>
-                    	<img src="<?php echo THEMEROOT?>/images/gallery-18-thumb.jpg" alt="" class="scale-with-grid" />
-                    </section>
-                </a>
-			</article>
-            
-			<article class="one-fifth column">
-                <a class="thumbLink" href="<?php echo THEMEROOT?>/images/gallery-19.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum.">
-					<section class="thumbImage">
-                        <div><span class="iconWrapper iconLink"></span></div>
-                    	<img src="<?php echo THEMEROOT?>/images/gallery-19-thumb.jpg" alt="" class="scale-with-grid" />
-                    </section>
-                </a>
-			</article>
-            
-			<article class="one-fifth column">
-                <a class="thumbLink" href="<?php echo THEMEROOT?>/images/gallery-20.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum.">
-					<section class="thumbImage">
-                        <div><span class="iconWrapper iconLink"></span></div>
-                    	<img src="<?php echo THEMEROOT?>/images/gallery-20-thumb.jpg" alt="" class="scale-with-grid" />
-                    </section>
-                </a>
-			</article>
+			
             
 			</div>
      </div></div>

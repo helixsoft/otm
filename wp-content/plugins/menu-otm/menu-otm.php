@@ -34,14 +34,14 @@ function otm_get_menu(){
 			                	$menu.='<li><span>'.get_field('menu_item_name_10',$post->ID) .'</span></li>';
 		                    $menu.='</ul>';	
 							endwhile; endif; wp_reset_query();
-	return $slider;
+	return $menu;
 }
 
 
 /**add the shortcode for the slider- for use in editor**/
 
 function otm_insert_menu($atts, $content=null){
-$menu= otm_get_slider();
+$menu= otm_get_menu();
 return $menu;
 }
 add_shortcode('otm_menu', 'otm_insert_menu');
