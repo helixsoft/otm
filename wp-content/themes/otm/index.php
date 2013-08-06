@@ -1,4 +1,4 @@
-<?php get_header();?>     
+<?php get_header();?>    
 <!-- Start Salon Page -->	
 	<div id="salon" class="page section">
 	
@@ -289,19 +289,13 @@
             <div id="contact_form">
                 <div class="twelve columns offset-by-two formWrap">
                     <h2>Request a booking</h2>
-                    <form action="#" method="post" class="contactForm">
-                        <div class="formSecWrap">
-                            <input type="text" class="formField" title="Name" id="form_name" name="form_name" value="" />
-                            <input type="text" class="formField" title="Email" name="form_email" id="form_email" value="" />
-                            <input type="text" class="formField" title="Phone" name="form_phone" id="form_phone" value="" />
-                            <input type="text" class="formField" title="Date &amp; Time" name="form_date" id="form_date" value="" />
-                        </div>
-                        <div class="formSecWrap formSecWrap2">
-                            <textarea class="textarea formField" title="Message" name="form_message" id="form_message"></textarea>
-                        </div>
-                            <input class="button" id="submit-form" type="submit" name="submit" value="Send Message" />
-                        <div id="success"></div>
-                    </form>
+                    <?php 
+                        $my_id = 169;
+                        $post_id_169 = get_post($my_id);
+                        $content = $post_id_169->post_content;
+                        $content = apply_filters('the_content', $content);
+                        echo $content;
+                    ?>
                 </div>
             </div>
         </div>
@@ -333,14 +327,13 @@
             </div>
             <div class="sixteen columns marginTop">
                 <h2>Get the latest news & offers</h2>
-                <form action="#" method="post" class="newsForm">
-                    <div>
-                    <input type="text" class="formField" title="Name" name="cm-name" id="name" />
-                    <input type="text" class="formField" title="Email" name="cm-email" id="email" />
-                    
-                    <input type="submit" value="submit" />
-                    </div>
-                </form>            
+               <?php 
+                        $my_id = 174;
+                        $post_id_174 = get_post($my_id);
+                        $content = $post_id_174->post_content;
+                        $content = apply_filters('the_content', $content);
+                        echo $content;
+                    ?>           
             </div>       
         </div>    
         

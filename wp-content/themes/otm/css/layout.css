@@ -1020,13 +1020,13 @@ input[type="button"]:hover {
 	background: #ddd;
 }
 
-.newsForm input[type="text"], .newsForm input[type="email"]{
+input[type="text"].newsForm,input[type="email"].newsForm{
 	width: 280px;
 	padding: 4px 10px;
 	display: inline-block;
 	margin-right: 10px;
 }
-.newsForm input[type="submit"]{
+input[type="submit"].newsForm{
 	width: auto;
 	padding: 4px 10px;
 	display: inline-block;

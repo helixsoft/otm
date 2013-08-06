@@ -29,7 +29,6 @@
     <script type="text/javascript" src="<?php echo THEMEROOT?>/js/supersized.shutter.min.js"></script>
     <script type="text/javascript" src="<?php echo THEMEROOT?>/js/twitter.js"></script>
     <script type="text/javascript" src="<?php echo THEMEROOT?>/js/custom.js"></script>
-    <script type="text/javascript" src="<?php echo THEMEROOT?>/js/contact_form.js"></script>
 
 	<script type="text/javascript">
 		//<![CDATA[
