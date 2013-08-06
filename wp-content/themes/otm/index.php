@@ -96,13 +96,13 @@
 				<?php otm_menu();?>
                 <!--Plugin End-->                                                 
 			</div>
-		
-        	<div class="ten columns " style="margin:0 auto;">
+		      <div class="clear"></div>
+        	<div class="ten columns " style="margin:0 auto;float:none;">
                 <h2 class="sectionTitle"><?php the_field('take_a_tour_text',23)?></h2>
                 <p><?php the_field('take_a_tour_small_text',23)?></p>
-                <!--<div class="video-container">
-                    <iframe width="800" height="500" src="http://www.youtube.com/embed/Mdw4jcMeiD4" frameborder="0" allowfullscreen></iframe>
-                </div>-->
+                <div class="video-container">
+                    <iframe  src="http://www.youtube.com/embed/Mdw4jcMeiD4" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>            
 		</div>
 	</div>
@@ -245,26 +245,69 @@
 
 <!--start Gallery -->
      <div id="gallery" class="page section">
-        
-    	
         	<div class="container">
-                
                 <div class="sixteen columns">
-				<h1><span>Our</span> Gallery</h1>
-                <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h3>
+				<h1><span><?php the_field('our_gallery_title_first',23) ?></span><?php the_field('our_gallery_title_second',23) ?></h1>
+                <h3><?php the_field('our_gallery_text',23) ?></h3>
 			</div>
             <div class="da-thumbs">
-            
 			<!--Plugin start-->
                 <?php otm_gallery();?>
-                <!--Plugin End-->
-            
-			
-            
+                <!--Plugin End--> 
 			</div>
      </div></div>
 <!--end Gallery--> 
- 
+
+<!--start junoon -->
+     <div id="junoon" class="page section">
+            <div class="container">
+                <div class="sixteen columns">
+                <h1><span><?php the_field('our_junoon_title_first',23) ?></span> <?php the_field('our_junoon_title_second',23) ?></h1>
+                <h3><?php the_field('our_junoon_text',23) ?></h3>
+            </div>
+            <div class="da-thumbs">
+            <!--Plugin start-->
+                <div class="four columns offset-by-two">
+                    <div class="teamOverlay"></div> 
+                    <div class="teamImage"><img src="<?php the_field('our_junoon_image_first',23) ?>" alt="" class="scale-with-grid" /></div> 
+                </div>
+                <div class="four columns">
+                    <div class="teamOverlay"></div> 
+                    <div class="teamImage"><img src="<?php the_field('our_junoon_image_second',23) ?>" alt="" class="scale-with-grid" /></div>
+                </div>
+                <div class="four columns">
+                    <div class="teamOverlay"></div> 
+                    <div class="teamImage"><img src="<?php the_field('our_junoon_image_third',23) ?>" alt="" class="scale-with-grid" /></div>
+                </div>
+            <!--Plugin End-->            
+            </div>
+     </div></div>
+<!--end junoon-->
+<!--start High -->
+     <div id="high" class="page section">
+            <div class="container">
+                <div class="sixteen columns">
+                <h1><span><?php the_field('our_high_title_first',23) ?></span> <?php the_field('our_high_title_second',23) ?></h1>
+                <h3><?php the_field('our_high_text',23) ?></h3>
+            </div>
+            <div class="da-thumbs">
+            <!--Plugin start-->
+               <div class="four columns offset-by-two">
+                    <div class="teamOverlay"></div> 
+                    <div class="teamImage"><img src="<?php the_field('our_high_image_first',23) ?>" alt="" class="scale-with-grid" /></div> 
+                </div>
+                <div class="four columns">
+                    <div class="teamOverlay"></div> 
+                    <div class="teamImage"><img src="<?php the_field('our_high_image_second',23) ?>" alt="" class="scale-with-grid" /></div>
+                </div>
+                <div class="four columns">
+                    <div class="teamOverlay"></div> 
+                    <div class="teamImage"><img src="<?php the_field('our_high_image_third',23) ?>" alt="" class="scale-with-grid" /></div>
+                </div>
+            <!--Plugin End-->            
+            </div>
+     </div></div>
+<!--end High-->
 <!--start parallax 5-->
      <div id="parallax-5" class="parallax fixed" style="background-image: url(<?php echo THEMEROOT?>/images/parallax-3.jpg);">
          <div class="quoteWrap">

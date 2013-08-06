@@ -107,8 +107,8 @@
           <li><a href="#services">Kitchen</a></li>
           <li><a href="#promotions">Events</a></li>
                     <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#homepage">Junoon</a></li>
-                    <li><a href="#homepage">High</a></li>
+                    <li><a href="#junoon">Junoon</a></li>
+                    <li><a href="#high">High</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <!-- End Nav Menu -->
@@ -122,8 +122,8 @@
           <li><a href="#services">Kitchen</a></li>
           <li><a href="#promotions">Events</a></li>
                     <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#homepage">Junoon</a></li>
-                    <li><a href="#homepage">High</a></li>
+                    <li><a href="#junoon">Junoon</a></li>
+                    <li><a href="#high">High</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         </select>
